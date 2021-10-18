@@ -13,7 +13,7 @@ import com.douzone.emailList.repository.EmailListRepository;
 import com.douzone.emailList.vo.EmailListVo;
 
 @Controller
-public class EmialListController {
+public class EmailListController {
 	
 	@Autowired
 	private EmailListRepository emailListRepository;
