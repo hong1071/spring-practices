@@ -44,5 +44,4 @@ public class GuestbookController {
 		guestbookRepository.delete(no, password);
 		return "redirect:/";
 	}
-
 }

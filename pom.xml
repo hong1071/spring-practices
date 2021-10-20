@@ -49,5 +49,6 @@
 		<module>hellospring03</module>
 		<module>emailList03</module>
 		<module>Guestbook03</module>
+		<module>logex</module>
 	</modules>
 </project>
