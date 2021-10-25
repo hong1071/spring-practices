@@ -30,7 +30,7 @@ public class FileUploadContoller {
 		System.out.println("email: " + email);
 		
 		String url = fileUploadService.restore(multipartFile);
-		model.addAttribute("url");
+		model.addAttribute("url",url);
 		
 		return "/WEB-INF/views/result.jsp";
 	}
