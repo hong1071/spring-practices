@@ -48,14 +48,14 @@
 		<finalName>container</finalName>
 	</build>
 	
-<!-- 	CDPlayer -->
-<!-- 	CompactDisc -->
-<!-- 	HighSchoolRapper2Final -->
+<!-- 	DVDPlayer -->
+<!-- 	DigitalVideoDisc -->
+<!-- 	Avengers -->
 	
-<!-- 	CDPlayerConfig.xml -->
-<!-- 	CDPlayerConfig.java -->
+<!-- 	DVDPlayerConfig.xml -->
+<!-- 	DVDPlayerConfig.java -->
 	
-<!-- 	CDPlayerXmlConfigTest -->
-<!-- 	CDPlayerJavaConfigTest -->
+<!-- 	DVDPlayerXmlConfigTest -->
+<!-- 	DVDPlayerJavaConfigTest -->
 	
 </project>
