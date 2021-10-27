@@ -14,6 +14,7 @@
 	</properties>
 	
 	<dependencies>
+	
 		<!-- Spring Context(Container) -->
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -22,20 +23,39 @@
 		</dependency>
 		
 		<!-- test -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-test</artifactId>
+			<version>${org.springframework-version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.github.stefanbirkner</groupId>
+			<artifactId>system-rules</artifactId>
+			<version>1.19.0</version>
+			<scope>test</scope>
+		</dependency>
+		
 	</dependencies>	
 	
 	<build>
 		<finalName>container</finalName>
 	</build>
 	
-	com.douzone.container.config.user
-	com.douzone.container.config.soundsystem
-	com.douzone.container.config.videosystem
+<!-- 	CDPlayer -->
+<!-- 	CompactDisc -->
+<!-- 	HighSchoolRapper2Final -->
 	
-	com.douzone.container.user
-	com.douzone.container.user.test
+<!-- 	CDPlayerConfig.xml -->
+<!-- 	CDPlayerConfig.java -->
 	
-	com.douzone.container.soundsystem
-	com.douzone.container.videosystem
+<!-- 	CDPlayerXmlConfigTest -->
+<!-- 	CDPlayerJavaConfigTest -->
 	
 </project>
