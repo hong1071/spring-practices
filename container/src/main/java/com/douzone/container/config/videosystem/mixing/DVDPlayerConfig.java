@@ -20,7 +20,7 @@ import com.douzone.container.videosystem.DigitalVideoDisc;
 public class DVDPlayerConfig {
 	
 	@Bean
-	public DVDPlayer dvdPlayer(@Qualifier DigitalVideoDisc dvd) {
+	public DVDPlayer dvdPlayer(@Qualifier("avengersInfinityWar") DigitalVideoDisc dvd) {
 		
 		return new DVDPlayer(dvd);
 	}
